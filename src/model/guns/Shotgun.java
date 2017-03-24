@@ -6,7 +6,7 @@ import model.Gun;
 public class Shotgun extends Gun implements Automatic {
 
 	public Shotgun() {
-		super("AA-12", 5, 10, 5, 1);
+		super("aa-12", 5, 10, 5, 1);
 	}
 
 	@Override
@@ -18,5 +18,4 @@ public class Shotgun extends Gun implements Automatic {
 	public int roundsPerSecond() {
 		return 30;
 	}
-
 }
