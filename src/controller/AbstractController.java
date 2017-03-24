@@ -11,7 +11,7 @@ public class AbstractController {
 		this.configureGuns();
 		
 		if(automaticShotgun instanceof Gun){
-			System.out.println("You successfully configured your shotgun");
+			System.out.println("You successfully configured your shotgun.");
 		}
 	}
 
